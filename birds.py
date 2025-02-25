@@ -20,6 +20,14 @@ class Birds:
     def __del__ (self):
         print ("del done", self.name)
 
-B = Birds("Guise" ,True, "Big")
-B.info()
 
+def bis():
+        B = Birds("Guise" ,True, "Big")
+        B.info()
+
+
+def main():
+        bis()
+
+if __name__ == '__main__':
+        main()
